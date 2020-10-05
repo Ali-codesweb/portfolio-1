@@ -98,6 +98,7 @@ instagram-contact>a{
 .sidebarLinks{
     color: var(--colorSecondary)!important;
     font-family: 'Lato', sans-serif;
+    animation:  fade-in-left 2s;
 }
 .description{
     font-family: 'Montserrat', sans-serif;
@@ -145,6 +146,7 @@ instagram-contact>a{
     background: url(./assets/Untitled-1.jpg) no-repeat;
     background-size: 100%;
     background-position: center;
+    animation: fade-top-bottom 2s;
 }
 
 .skill .bars p, .site-content .skill .bars span{
@@ -159,6 +161,16 @@ instagram-contact>a{
     border-bottom: 1px solid gray;
     padding: 1.5rem 1rem;
 }
+
+@keyframes fade-in-left {
+    from {margin-left:-80px;opacity:0}
+    to{opacity: 1;}
+}
+@keyframes fade-top-bottom {
+    from {margin-top:-80px;opacity:0}
+    to{margin-top:0px; opacity: 1;}
+}
+
 
 @media screen and (min-width: 768px){
     .toggle-button{
