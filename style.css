@@ -122,6 +122,9 @@ instagram-contact>a{
     left: 30px;
     opacity: 0.7;
 }
+.whiteClr{
+    color: white!important;
+}
 .site-banner .banner-area{
     background: url(./assets/Banner_image.jpg) no-repeat;
     background-size: cover;
